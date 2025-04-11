@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go_interfaces/examples"
+)
 
 func main() {
 	fmt.Println("Go Interfaces")
+	examples.ShuffleableInterfaceExamples()
 }
